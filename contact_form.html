@@ -1,0 +1,130 @@
+<html>
+<head>
+    <title>form</title></head>
+ 
+
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <title> Contact Form</title>
+ <link rel="stylesheet" href="css/main.css" type="text/css" title="main style" media="screen">
+ <link rel="alternate stylesheet" href="css/alternate.css" type="text/css" title="alternate style" media="screen">
+ <link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+ <link href="contact_form.css" rel="stylesheet">
+
+<script type="text/javascript" src="js/styleswitcher.js"> </script>
+ </head>
+
+ <body onload="setActiveStyleSheet('main style');">
+
+     <div id="header">
+            <h1>Learn to Cook</h1>
+     </div>
+
+     <ul class="nav">
+		<li><a href="#" onClick="setActiveStyleSheet('main style'); return false;">main</a></li>
+		<li><a href="#" onClick="setActiveStyleSheet('alternate style'); return false;"> alternate </a> </li>
+		<li><a href="#" onClick="setActiveStyleSheet('print style'); return false;">print</a></li>
+     </ul>
+
+ <div id="container">
+      <div id="nav">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="receipes.html">Receipes</a></li>
+        <li><a href="contact_form.html">Contact</a></li>
+		<li><a href="mailto:gnatfive@gmail.com">Email</a></li>
+      </ul>
+      </div>
+</div>
+
+  <body>
+	<form action ="contact_form.php" method ="post" name ="form">
+	  
+	   <fieldset>
+		<label for= "lastname">Last name</label>
+		 <input type = "text" name = "last" id="lname"><br>
+		<label for= "firstname">First name</label>
+        <input type = "text" name = "first" id="fname">
+		
+  &nbsp;<br>
+		<p>Please indicate what best describes you:</p>
+		<select name = "age" multiple>
+		<option value = "child">Children (10-12)</option>
+		<option value = "youth">Youth (13-18)</option>
+		<option value = "adult1">Adult (19 - 25)</option>
+		<option value = "adult2">Adult (26 - 35)</option>
+		<option value = "adult3">Adult (36 - 50)</option>
+		<option value = "adult4">Adult (51 - 65)</option>
+		<option value = "adult5">Adult (66 and up)</option>
+		</select>
+		
+		<br>
+		<p> January 2014 Class schedule:</p>
+
+		<table border='1'>
+			 <tr>
+			 <th>Day</th>
+			 <th>Time</th>
+			 <th>Receipe</th>
+			 <th>Code</th>
+
+			 </tr>
+			 <tr>
+			 <td>Monday</td>
+			 <td>9:30 pm - 12:00 pm</td>
+			 <td>Beef in Oyster Sauce</td>
+             <td>BOS</td>
+
+			 </tr>			
+
+			 <tr>
+			 <td>Tuesday</td>
+			 <td>6:30 pm - 9:00 pm</td>
+			 <td>Kung Po Chicken</td>
+             <td>KPC</td>
+			 </tr>
+
+             <tr>
+			 <td>Wednesday</td>
+			 <td>9:30 pm - 12:00 pm</td>
+			 <td>Ants Climbing a Tree</td>
+             <td>ACT</td>
+			 </tr>
+              
+			  <tr>
+			 <td>Thursday</td>
+			 <td>6:30 pm - 9:00 pm</td>
+			 <td>Sichuan Chicken</td>
+             <td>SIC</td>
+
+			 </tr>
+
+             <tr>
+			 <td>Saturday</td>
+			 <td>2:00 pm - 4:30 pm</td>
+			 <td>Sweet and Sour Fish</td>
+             <td>SSF</td>
+
+			 </tr>
+
+			 </table> 
+		
+		
+
+       <p>Please indicate which class you would like to attend:</p>
+		<select name = "class" multiple>
+		<option value = "Monday">Monday (9:30 pm - 12:00 pm) - Beef in Oyster Sauce</option>
+        <option value = "Tuesday">Tuesday (6:30 pm - 9:00 pm) - Kung Po Chicken</option>
+		<option value = "Wednesday">Wednesday (9:30 pm - 12:00 pm) - Ants Climbing a Tree</option>
+		<option value = "Thursday">Thursday (6:30 pm - 9:00 pm) - Sichuan Chicken</option>
+		<option value = "Saturday">Saturday (2:00 pm - 4:30 pm) - Sweet and Sour Fish</option>
+        </select>
+        <br><br>
+     
+		
+		<input type = "submit" name = "submit-button" value = "Submit">
+
+        </fieldset>
+	   </form>
+	  </body>
+	</html>

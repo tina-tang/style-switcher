@@ -1,0 +1,39 @@
+/*Filename: print.css*/
+
+body, #container, #content, #footer{
+	font-family: "times new roman", times, serif; 
+        background: #ffffff;
+        color:#000000;
+        float: none;
+        width:auto;
+}
+
+h1, h2 {
+       background: #ffffff;
+       color: #000000;
+       padding-bottom: 1px;
+       border-bottom: 1px solid gray;
+}
+a{
+   text-decoration: underline;
+   color: #309;
+}
+
+#nav {
+      display:none;
+}
+
+img{float:right;
+    width:267px;
+    height:200px;
+}
+
+#content a:link:after, 
+#content a:visited:after {
+		content: " URL: ( " attr(href) ") ";
+		font-size: 90%;
+   }
+	
+#tabs img { width: 150px;
+            height: 113px;
+}

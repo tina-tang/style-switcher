@@ -1,0 +1,30 @@
+/*
+File:form.css
+Date: Jan 2014
+Description:style for contact.html
+*/
+
+
+form { 
+ border: 1px solid #7081EF; 
+ padding: 5px; 
+}
+
+
+input { 
+ background-color: #7081EF; 
+}
+
+select { 
+ background-color: #7081EF; 
+ color: #fff; 
+}
+
+textarea { 
+ background-color: #7081EF; 
+ color: #fff; 
+}
+
+   
+
+

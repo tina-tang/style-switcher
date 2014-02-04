@@ -1,0 +1,91 @@
+/*Filename: main.css*/
+
+
+body{
+	font-family:arial,helvetica, sans-serif; 
+	
+}
+
+
+ #header h1{
+          color: #098009;
+		  
+ }
+
+
+ul{
+	list-style:none;
+	line-height:25px; 
+}
+img{
+	float:right;
+	margin-left:10px; 
+    width:267px;
+    height:200px;
+}
+
+ul.nav {
+	text-align: center;
+	margin: 0;
+	padding: 10px 0 20px 10px;
+	border-bottom: 1px solid #696;
+}
+
+ul.nav li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style: none;
+	
+	}
+
+ul.nav a {
+	float: left;
+	line-height: 14px;
+	font-weight: bold;
+	margin: 0 10px 4px 10px;
+	text-decoration: none;
+	color: #696;
+}
+
+ul.nav a.active, ul.nav a.hover {
+                                  border-bottom: 4px solid #696;
+                                  padding-bottom: 2px;
+	                          
+}
+
+ul.nav a:hover {
+	color: #d5d6a4;
+	}
+
+#container{
+	margin-top:40px; 
+}
+
+#nav{
+	width:130px;/*130*/
+	float:left;
+	padding-left:10px;   
+}
+
+#content{
+	width:600px;
+	margin-left:160px;  
+}
+
+#header{
+	padding-left:20px; 
+}
+
+
+#footer{
+	text-align:right; 
+	font-size:10px; 
+	
+}
+
+/*added*/
+
+#tabs img { width: 150px;
+            height: 113px;
+}
